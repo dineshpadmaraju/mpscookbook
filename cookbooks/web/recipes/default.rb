@@ -12,3 +12,8 @@ package "httpd"
 service "httpd" do
 	action :start
 end
+
+file "/var/www/html/index.html" do
+	content "Hellp Mphais"
+end
+
